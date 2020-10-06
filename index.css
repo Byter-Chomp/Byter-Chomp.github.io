@@ -1,15 +1,103 @@
+
+  .class1,
+  .class2,
+  .class3, 
+  .class4 {
+    width: 25%;
+    float: left;
+    height: 100px;
+  }
+  
+  p {
+    padding-top: 25px;
+    text-align: center;
+  }
+
 body {
     text-align: center;
     margin: 0px;
-    font-family: "Comic Sans MS";
+    font-family: 'Roboto Condensed', sans-serif;   
+    background-size: 100%;
+    width: 100%;
+    float: left;
 }
 
-.about {
-    background-color: yellow;
-    padding: 0px;
-}
+    .about {
+    
+        color: black;
+        padding: 70px;
+        font-size: 30px;
+    }
 
 .projects {
-    background-color: yellow;
+    padding: 10px;
+    
+}
+
+#luSection {
+    background-image: url('images/lu.jpg');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    background-attachment: fixed
+}
+
+#sectionThree {
+    height: 500px;
+    background-attachment: fixed;
+    padding: 100px;
+    margin: 45px 50px 50px 50px;
+}
+
+.project-thumbnail {
+    display: inline-block;
+    height: 256px;
+    box-shadow: 0px 0px 10px 2px black;
+    vertical-align: middle;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: teal;
+    color: white;
+  }
+
+  #nav {
+    display: inline-block;
+    list-style-type: none;
+}
+
+#nav2 {
+    list-style-type: none;
     padding: 10px;
 }
+
+
+.project-content {
+    list-style-type: none;
+}
+
+#nav_about {
+    list-style-type: none;
+}
+
+

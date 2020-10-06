@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">    <!-- This will show up on the tab in your browser -->
+    <title>My Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+
+<body>
+  <header>
+        <nav><ul id="nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="About.html">About</a></li>
+        </ul></nav>
+    </header>
+
+    <div class="about">
+            <h1>KARSEN MARTIN</h1>
+            <p>Welcome to my portfolio</p>
+            <p style="color:black;font-size:12px;"><a href="About.html">Click Here for More about Me!</a></p>
+    </div>
+
+    <div class="class1" style="background-color:#d1e0e0;">
+        <p>info 1</p>
+    </div>
+    <div class="class2" style="background-color:#a3c2c2;">
+            <p>info 2</p>
+    </div>
+    <div class="class3" style="background-color:#75a3a3;">
+            <p>Info 3</p>
+    </div>
+
+    <div id="projOne" class="projects">
+        <h1>WHAT I KNOW</h1>
+          <div class="project-content">
+            <h3>HTML</h3><h3>CSS</h3>
+            <h3>JAVASCRIPT</h3>
+            <h3>PYTHON</h3>
+          </div>
+
+    <div id="projThree" class="projects"><p>All about ME!</p>  
+        <img class="project-thumbnail" src="images/KM.jpg">
+        <div class="project-content">
+            <h1>ME</h1>
+            <p>My interests, hobbies, life, sports, places visited, missionary work would be great things to put in here.</p>
+        </div>
+    </div>
+    
+</body>
