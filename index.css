@@ -17,53 +17,58 @@ h1 {
       width: fit-content;
       float: left;
       height: fit-content;
-      padding: 40px;
-      margin: 100px 100px;
+      padding: 70px 0;
+  text-align: center;
+    
   }
+
+  
 
   #iknow {
     vertical-align: middle;
   }
   p {
-    padding-top: 25px;
     text-align: center;
   }
 
 body {
     text-align: center;
-    margin: 0px;
+    margin: 0;
     font-family: 'Roboto Condensed', sans-serif;   
     background-size: 100%;
     width: 100%;
     float: left;
+    max-width: 100%;
+    min-width: 100%;
 }
     .about {
-        color: black;
-        padding: 30px;
-        font-size: 50px;
-        height: 300px;
+        align-content: center;
+        padding: 40px 25px 50px 25px;
     }
     a:visited {
         color: black;}
 
 .projects {
     padding: 10px;
-    
+    height: 300px;
+
 }
 
 #luSection {
-    background-image: url('images/lu.jpg');
-    background-size: 100% 100%;
+    background-image: url('images/lu.jpg'); 
+    background-size: cover;
     background-repeat: no-repeat;
     padding-top: 80px;
     background-attachment: fixed;
+    background-blend-mode: soft-light;
+   
 }
 
 #sectionThree {
-    height: 500px;
+    height: 600px;
     background-attachment: fixed;
     padding: 100px;
-    margin: 45px 50px 50px 50px;
+    margin: 40px 50px 50px 50px;
 }
 
 .project-thumbnail {
@@ -71,8 +76,15 @@ body {
     height: 256px;
     box-shadow: 0px 0px 10px 2px black;
     vertical-align: middle;
-    padding: 10px;
 }
+.wanttodo {
+    display: inline-block;
+    height: 256px;
+    box-shadow: 0px 0px 10px 2px black;
+    vertical-align: middle;
+    
+}
+
 
 ul {
     list-style-type: none;
@@ -100,15 +112,14 @@ ul {
   }
 
   #nav {
-    display: inline-block;
-    list-style-type: none;
+    position: fixed;
+    width: 100%;
+
 }
 
-#nav2 {
-    list-style-type: none;
-    padding: 10px;
+header {
+    
 }
-
 
 .project-content {
     list-style-type: none;
@@ -117,3 +128,20 @@ ul {
 #nav_about {
     list-style-type: none;
 }
+  
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: #03989E63;
+    color: black;
+
+  }
+  
+  a:link {
+      color: black;
+      background-color: transparent;
+      text-decoration: none;
+  }
+  
+  

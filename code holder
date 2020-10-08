@@ -21,15 +21,23 @@
             <p style="color:black;font-size:12px;"><a href="About.html">Click Here for More about Me!</a></p>
     </div>
 
-    <div class="class1" style="background-color:#d1e0e0;">
-        <p>info 1</p>
-    </div>
-    <div class="class2" style="background-color:#a3c2c2;">
-            <p>info 2</p>
-    </div>
-    <div class="class3" style="background-color:#75a3a3;">
-            <p>Info 3</p>
-    </div>
+    <section id="iknow">
+            <div class="class1" style="background-color:#d1e0e0;">
+                <p>CSS</p>
+            </div>
+
+            <div class="class2" style="background-color:#a3c2c2;">
+                <p>JAVASCRIPT</p>
+            </div>
+
+            <div class="class3" style="background-color:#75a3a3;">
+                <p>HTML</p>
+            </div>
+
+            <div class="class4" style="background-color:#5c8a8a;">
+                <p>PYTHON</p>
+            </div> 
+        </section>
 
     <div id="projOne" class="projects">
         <h1>WHAT I KNOW</h1>
