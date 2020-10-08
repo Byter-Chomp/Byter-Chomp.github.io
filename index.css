@@ -1,74 +1,53 @@
-h1 {
-    font-size: 36px;
-}
-  .class1,
-  .class2,
-  .class3, 
-  .class4 {
-    width: 24%;
-    float: left;
-    height: 100px;
-    border: black;
-    border-style: double;
-    
-  }
 
-  .class5 {
-      width: fit-content;
-      float: left;
-      height: fit-content;
-      padding: 70px 0;
+header {
   text-align: center;
-    
-  }
+}
 
+#nav {
+  position: fixed;
+  width: 100%;
+  margin: 0 auto;
   
+}
 
-  #iknow {
-    vertical-align: middle;
-  }
-  p {
+p {
     text-align: center;
   }
 
 body {
-    text-align: center;
-    margin: 0;
-    font-family: 'Roboto Condensed', sans-serif;   
-    background-size: 100%;
-    width: 100%;
-    float: left;
-    max-width: 100%;
-    min-width: 100%;
+    font-family: 'Roboto Condensed', sans-serif;  
 }
-    .about {
-        align-content: center;
-        padding: 40px 25px 50px 25px;
-    }
-    a:visited {
+
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
         color: black;}
 
-.projects {
-    padding: 10px;
+     /* this is for the circle name logo above lucy pic section */
+.container1 {
+    padding: 50px;
     height: 300px;
-
+    position: relative;
+    margin: 0px;
 }
 
-#luSection {
+
+#kmaboutimg {
+    margin-top: 5vh;
+    margin-bottom: 100vh;
+}
+
+#lusection {
     background-image: url('images/lu.jpg'); 
     background-size: cover;
     background-repeat: no-repeat;
-    padding-top: 80px;
     background-attachment: fixed;
-    background-blend-mode: soft-light;
-   
-}
-
-#sectionThree {
-    height: 600px;
-    background-attachment: fixed;
-    padding: 100px;
-    margin: 40px 50px 50px 50px;
+    height: 350px;
+    margin-top: 10vh;
 }
 
 .project-thumbnail {
@@ -77,18 +56,13 @@ body {
     box-shadow: 0px 0px 10px 2px black;
     vertical-align: middle;
 }
-.wanttodo {
-    display: inline-block;
-    height: 256px;
-    box-shadow: 0px 0px 10px 2px black;
-    vertical-align: middle;
-    
-}
+
+
 
 
 ul {
     list-style-type: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     overflow: hidden;
   }
@@ -100,34 +74,18 @@ ul {
   li a {
     display: block;
     color: black;
-    text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    text-shadow: white 0.1em 0.1em 0.2em;
   }
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color: teal;
+  
+
     color: white;
+    text-shadow: #03989E63 0.2em 0.2em 0.2em
   }
-
-  #nav {
-    position: fixed;
-    width: 100%;
-
-}
-
-header {
-    
-}
-
-.project-content {
-    list-style-type: none;
-}
-
-#nav_about {
-    list-style-type: none;
-}
   
 
 footer {
@@ -135,13 +93,7 @@ footer {
     padding: 3px;
     background-color: #03989E63;
     color: black;
+}
+  
+  
 
-  }
-  
-  a:link {
-      color: black;
-      background-color: transparent;
-      text-decoration: none;
-  }
-  
-  
