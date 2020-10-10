@@ -53,14 +53,13 @@ a:visited {
 }
 
 .project-thumbnail {
-    height: 600px;
+    height: 400px;
     box-shadow: 0px 0px 10px 2px black;
     vertical-align: middle;
     float: left;
     padding: 25px;
+    margin: 100px;
 }
-
-
 
 
 ul {
