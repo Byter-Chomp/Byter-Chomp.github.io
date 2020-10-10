@@ -1,38 +1,45 @@
 <!DOCTYPE html>
-<head>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">    <!-- This will show up on the tab in your browser -->
-    <title>My Portfolio</title>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap" rel="stylesheet">    <!-- This will show up on the tab in your browser -->
+        <title>My Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
 
-    <!-- This links your css file to the html -->
-    <link rel="stylesheet" type="text/css" href="index.css">
-</head>
+    <body>
+        <header>
+            <nav><ul id="nav">
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="projects.html">PROJECTS</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                 </ul>
+            </nav>
+            <div class="container1">
+                <img id="kmaboutimg" src="images/km_contact.svg">
+            </div>
+        </header>
 
-<body>
-  <header>
-        <nav><ul id="nav">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="projects.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="About.html">About</a></li>
-        </ul></nav>
-    </header>
-    <div id="bio" class="blockOne">
-    <!-- This is the start of the "About" section -->
-        <div class="about">
-            <h1>KARSEN MARTIN</h1>
+        <div id="stretch">
         </div>
-    </div>
 
-    <!-- This is the start of the projects section -->
-
-    <div id="projTwo" class="projects">
-       
-        <div class="contact-form">
-            <h1 style="font-size: 8px;">CONTACT ME!</h1>
-            <form>
-
-
+        <div style="padding: 50px" class="form_container">
+            <h1>Contact Me!</h1>
+            <form action="action_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Name...">
+          
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" placeholder="Email...">
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Ask me anything..." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
             </form>
-        </div>
-    </div>
-</body>
+          </div>
+
+    </body>
+    </html>
