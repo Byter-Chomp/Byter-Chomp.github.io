@@ -135,18 +135,26 @@ input[type=submit]:hover {
 /* Add a background color and some padding around the form */
 .form_container {
   border-radius: 5px;
-  background-color: #03989E10;
-
+  background-color: #03989E20;
 }
 
 
 #stretch {
+    height: 100px;
     background-image: url('images/greentile.svg');
-    background-repeat: repeat-x, repeat-y;
-    background-size: 200vh;
+    background-size: cover;
+    background-repeat: repeat;
     background-attachment: fixed;
     height: 100px;
+    margin-top: 5vh;
+}
+h1 {
+  font-weight: lighter;
+}
 
-    
-
+.MouseTrail {
+  position: absolute;
+  height: 7px; width: 7px;
+  border-radius: 4px;
+  background: #03989E;
 }
