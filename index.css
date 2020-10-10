@@ -2,7 +2,7 @@
 header {
   text-align: center;
 }
-
+/* NAV BAR*/
 #nav {
   position: fixed;
   width: 100%;
@@ -11,6 +11,40 @@ header {
   
 }
 
+ul {
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  padding: 14px 16px;
+  text-decoration: none;
+  text-shadow: white 0.1em 0.1em 0.2em;
+}
+
+/* LINKS ON PAGES */
+li a:hover {
+  color: white;
+  text-shadow: #03989E 0.2em 0.2em 0.2em
+}
+a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:visited {
+  color: black;}
+
+
+/* ELEMENTS ON PAGES*/
 p {
     text-align: center;
   }
@@ -18,40 +52,52 @@ p {
 body {
     font-family: 'Roboto Condensed', sans-serif;  
 }
+h1 {
+  padding-top: 200px;
+  text-align: center;
+  font-weight: lighter;
 
-a:link {
-  color: black;
-  background-color: transparent;
-  text-decoration: none;
 }
 
-a:visited {
-        color: black;}
 
-     /* this is for the circle name logo above lucy pic section */
+
+/*HOME PAGE*/
 .container1 {
     padding: 50px;
     height: 350px;
     position: relative;
     margin: 0px;
 }
-
-
-#kmaboutimg {
-    margin-top: 5vh;
-    margin-bottom: 150vh;
-    width: 40vh;
-}
-
 #lusection {
-    background-image: url('images/lu.jpg'); 
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    height: 350px;
-    margin-top: 10vh;
+  background-image: url('images/lu.jpg'); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 350px;
+  margin-top: 10vh;
 }
 
+/*ABOUT PAGE*/
+
+
+.aboutpic {
+  height: 400px;
+  box-shadow: 0px 0px 10px 2px black;
+  vertical-align: middle;
+  float: left;
+  padding: 25px;
+  margin: 100px;
+  width: 40vh;
+}
+.about-thumbnail {
+  width: 10px;
+  padding: 25px;
+  margin: 10px;}
+
+
+
+
+/*PROJECT PAGE*/
 .project-thumbnail {
     height: 400px;
     box-shadow: 0px 0px 10px 2px black;
@@ -61,41 +107,8 @@ a:visited {
     margin: 100px;
 }
 
-.about-thumbnail {
-  height: 400px;
-  box-shadow: 0px 0px 10px 2px black;
-  vertical-align: middle;
-  float: left;
-  padding: 25px;
-  margin: 100px;
-}
 
 
-ul {
-    list-style-type: none;
-    margin: 0 auto;
-    padding: 0;
-    overflow: hidden;
-  }
-  
-li {
-    float: left;
-  }
-  
-li a {
-    display: block;
-    color: black;
-    padding: 14px 16px;
-    text-decoration: none;
-    text-shadow: white 0.1em 0.1em 0.2em;
-  }
-  
-  /* Change the link color on hover */
-li a:hover {
-    color: white;
-    text-shadow: #03989E 0.2em 0.2em 0.2em
-  }
-  
 
 footer {
     text-align: center;
@@ -104,6 +117,8 @@ footer {
     color: black;
 }
   
+/*CONTACT PAGE*/
+
 input[type=email], select, textarea {
   width: 100%; /* Full width */
   padding: 12px; /* padding */ 
@@ -158,7 +173,7 @@ input[type=submit]:hover {
     margin-top: 5vh;
 }
 
-
+/*MOUSE EFFECTS*/
 .MouseTrail {
   position: absolute;
   height: 7px; width: 7px;
@@ -174,10 +189,36 @@ input[type=submit]:hover {
   ;
 }
 
-h1 {
-  padding-top: 100px;
-  padding-bottom: 100px;
-  text-align: center;
-  font-weight: lighter;
+/*PHOTO FADE*/
 
-}
+.fade-in {
+  animation: fadeIn ease 5s;
+  -webkit-animation: fadeIn ease 5s;
+  -moz-animation: fadeIn ease 5s;
+  -o-animation: fadeIn ease 5s;
+  -ms-animation: fadeIn ease 5s;
+  }
+  @keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
+  
+  @-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+  }
