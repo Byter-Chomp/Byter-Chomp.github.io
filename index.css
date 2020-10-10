@@ -61,6 +61,15 @@ a:visited {
     margin: 100px;
 }
 
+.about-thumbnail {
+  height: 400px;
+  box-shadow: 0px 0px 10px 2px black;
+  vertical-align: middle;
+  float: left;
+  padding: 25px;
+  margin: 100px;
+}
+
 
 ul {
     list-style-type: none;
@@ -129,7 +138,7 @@ input[type=submit] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: darkgreen;
+  background-color: #7c8c64;
 }
 
 /* Add a background color and some padding around the form */
