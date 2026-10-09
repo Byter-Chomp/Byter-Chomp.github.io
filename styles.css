@@ -88,7 +88,15 @@ a {
   height: var(--header-h);
   padding: 0 clamp(1.25rem, 4vw, 3rem);
   color: var(--white);
-  mix-blend-mode: difference;
+  background: linear-gradient(180deg, rgba(22, 20, 18, 0.55), rgba(22, 20, 18, 0));
+  transition: color 200ms var(--ease-out), background 200ms var(--ease-out);
+}
+
+.site-header.is-scrolled {
+  color: var(--ink);
+  background: rgba(244, 243, 241, 0.92);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 1px 0 var(--line);
 }
 
 .wordmark {
@@ -518,11 +526,6 @@ a {
 }
 
 @media (max-width: 640px) {
-  .site-header {
-    mix-blend-mode: normal;
-    background: linear-gradient(180deg, rgba(22, 20, 18, 0.55), transparent);
-  }
-
   .hero__content {
     padding-bottom: 3.5rem;
   }

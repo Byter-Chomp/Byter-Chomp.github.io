@@ -2,6 +2,17 @@ const CONTACT_EMAIL = "contactkarsen@gmail.com";
 
 const form = document.getElementById("contact-form");
 const statusEl = document.getElementById("form-status");
+const header = document.querySelector(".site-header");
+
+function syncHeader() {
+  if (!header) return;
+  const pastHero = window.scrollY > window.innerHeight * 0.55;
+  header.classList.toggle("is-scrolled", pastHero);
+}
+
+syncHeader();
+window.addEventListener("scroll", syncHeader, { passive: true });
+window.addEventListener("resize", syncHeader);
 
 function buildMailto({ firstName, lastName, email, phone, message }) {
   const name = [firstName, lastName].filter(Boolean).join(" ").trim() || "Website visitor";
