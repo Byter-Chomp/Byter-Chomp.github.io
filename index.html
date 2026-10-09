@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Small Business Website Design | Karsen Martin Digital Design</title>
+    <meta
+      name="description"
+      content="Custom website design for small businesses. Wix, Squarespace, Shopify and custom builds designed around your business, with room to grow."
+    />
+    <meta property="og:title" content="Small Business Website Design | Karsen Martin Digital Design" />
+    <meta
+      property="og:description"
+      content="Custom website design for small businesses. Wix, Squarespace, Shopify and custom builds designed around your business, with room to grow."
+    />
+    <meta property="og:image" content="/assets/hero.jpg" />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600&family=Syne:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Karsen Martin home">Karsen Martin</a>
+      <nav class="site-nav" aria-label="Primary">
+        <a href="#work">Work</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="top" aria-label="Introduction">
+        <div class="hero__media" aria-hidden="true">
+          <img
+            class="hero__image"
+            src="/assets/hero.jpg"
+            alt=""
+            width="2400"
+            height="1350"
+            fetchpriority="high"
+          />
+          <div class="hero__veil"></div>
+          <div class="hero__grain"></div>
+        </div>
+
+        <div class="hero__content">
+          <p class="hero__brand">Karsen Martin</p>
+          <h1 class="hero__title">Need digital media?</h1>
+          <p class="hero__lede">
+            Custom website design for small businesses — built to look like you and grow with you.
+          </p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#contact">Start a project</a>
+            <a class="btn btn--ghost" href="#work">See how I work</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel panel--work" id="work" aria-labelledby="work-heading">
+        <div class="panel__inner">
+          <p class="eyebrow">Digital design</p>
+          <h2 id="work-heading">Sites with personality — and room to grow.</h2>
+          <p class="panel__lede">
+            I design and build small-business websites on Wix, Squarespace, Shopify, and custom
+            stacks. Clear structure, strong visuals, and a site you can actually maintain.
+          </p>
+
+          <ul class="offer-list" role="list">
+            <li>
+              <h3>Launch sites</h3>
+              <p>One-page and multi-page sites that introduce your brand and convert inquiries.</p>
+            </li>
+            <li>
+              <h3>Platform builds</h3>
+              <p>Wix, Squarespace, and Shopify when you want an editable home without the overhead.</p>
+            </li>
+            <li>
+              <h3>Custom &amp; code</h3>
+              <p>Lightweight HTML/CSS (like this site) when you want full control and zero platform lock-in.</p>
+            </li>
+          </ul>
+        </div>
+
+        <aside class="panel__visual" aria-hidden="true">
+          <img src="/assets/about-beach.jpg" alt="" width="1200" height="1600" loading="lazy" />
+          <img class="panel__visual-offset" src="/assets/shells.jpg" alt="" width="1400" height="1050" loading="lazy" />
+        </aside>
+      </section>
+
+      <section class="panel panel--contact" id="contact" aria-labelledby="contact-heading">
+        <div class="panel__inner panel__inner--narrow">
+          <p class="eyebrow">Contact</p>
+          <h2 id="contact-heading">Tell me what you’re looking for.</h2>
+          <p class="panel__lede">
+            Share a little about your business and goals. I’ll reply by email — no Wix form required.
+          </p>
+
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="field-row">
+              <label>
+                <span>First name</span>
+                <input type="text" name="firstName" autocomplete="given-name" required />
+              </label>
+              <label>
+                <span>Last name</span>
+                <input type="text" name="lastName" autocomplete="family-name" />
+              </label>
+            </div>
+            <div class="field-row">
+              <label>
+                <span>Email</span>
+                <input type="email" name="email" autocomplete="email" required />
+              </label>
+              <label>
+                <span>Phone</span>
+                <input type="tel" name="phone" autocomplete="tel" />
+              </label>
+            </div>
+            <label>
+              <span>Project notes</span>
+              <textarea
+                name="message"
+                rows="5"
+                required
+                placeholder="Tell me a little about what you are looking for!"
+              ></textarea>
+            </label>
+            <button class="btn btn--primary" type="submit">Send message</button>
+            <p class="form-note" role="status" aria-live="polite" id="form-status"></p>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>
+        <span class="wordmark wordmark--footer">Karsen Martin</span>
+        <span class="footer-meta">Digital design · Happily made</span>
+      </p>
+      <a href="mailto:contactkarsen@gmail.com">contactkarsen@gmail.com</a>
+    </footer>
+
+    <script src="/main.js" type="module"></script>
+  </body>
+</html>
